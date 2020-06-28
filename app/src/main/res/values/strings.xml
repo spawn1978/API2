@@ -1,0 +1,7 @@
+    <resources>
+        <string name="app_name">API2</string>
+        <string name="generate_token">Generate Token</string>
+        <string name="lista_desplegable">Select a token name</string>
+        <string name="generador">Generate New Token</string>
+        <string name="field">Token generated</string>
+    </resources>
