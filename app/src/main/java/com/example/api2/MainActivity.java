@@ -18,4 +18,9 @@ public class MainActivity extends AppCompatActivity {
         Intent act_generate = new Intent(this, GenerateToken.class);
         startActivity(act_generate);
     }
+
+    public void add_newtoken( View view){
+        Intent add_newtoken = new Intent(this, AddNewTokenName.class);
+        startActivity(add_newtoken);
+    }
 }
