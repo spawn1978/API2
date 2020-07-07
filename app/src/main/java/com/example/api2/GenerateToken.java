@@ -16,7 +16,7 @@ public class GenerateToken extends AppCompatActivity {
         setContentView(R.layout.activity_generate_token);
 
         spinner1 = (Spinner)findViewById(R.id.spinner2);
-        String [] opciones = {"11111", "22222", "33333","44444"};
+        String [] opciones = {"Select a token name", "11111", "22222", "33333","44444"};
         ArrayAdapter <String> adapter = new ArrayAdapter<String>( this, android.R.layout.simple_spinner_item, opciones);
         spinner1.setAdapter(adapter);
     }
